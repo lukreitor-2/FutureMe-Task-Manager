@@ -1,0 +1,22 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "postinstall": "node lib/remove-api-node-modules.js"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.16"
+  },
+  "dependencies": {
+    "data-fns": "^1.1.0"
+  }
+}

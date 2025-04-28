@@ -1,0 +1,67 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules/
+/.pnp/
+/.pnp.js
+
+# TurboRepo
+/.turbo/
+# cache de build incremental
+/.cache/
+
+# testing
+/coverage/
+
+# Next.js
+/.next/
+/out/
+/.next-static/
+
+# NestJS
+/dist/
+/build/
+
+# misc
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local env files
+.env
+.env*.local
+.env*.development
+.env*.test
+.env*.production
+
+# vercel
+.vercel/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vscode
+.vscode/
+
+# idea (Jetbrains IDEs)
+.idea/
+
+# Optional: MacOS Thumbnails
+.AppleDouble
+.LSOverride
+
+# Optional: Windows Thumbnails
+Thumbs.db
+ehthumbs.db
+
+# Optional: Linux Trash
+.Trash-*
+
+# bun
+.bun-install-cache/
